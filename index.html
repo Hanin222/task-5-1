@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>CALCULATUR</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="calculate">
+    <meta name="keywords" content="calc">
+    <link rel="stylesheet" href="asset/main.css">
+</head>
+
+
+
+<body>
+  
+
+    <div class="wrapper">
+        <div id="calculator">
+            <input type="text" id="result" class="zero" disabled>
+            <br>
+            <input type="button" class="circle" value="1" onclick="appendToResult('1')">
+            <input type="button" class="circle" value="2" onclick="appendToResult('2')">
+            <input type="button" class="circle" value="3" onclick="appendToResult('3')">
+            <input type="button" class="circle" value="+" onclick="appendToResult('+')">
+            <br>
+            <input type="button" class="circle" value="4" onclick="appendToResult('4')">
+            <input type="button" class="circle" value="5" onclick="appendToResult('5')">
+            <input type="button" class="circle" value="6" onclick="appendToResult('6')">
+            <input type="button" class="circle" value="-" onclick="appendToResult('-')">
+            <br>
+            <input type="button" class="circle" value="7" onclick="appendToResult('7')">
+            <input type="button" class="circle" value="8" onclick="appendToResult('8')">
+            <input type="button" class="circle" value="9" onclick="appendToResult('9')">
+            <input type="button" class="circle" value="*" onclick="appendToResult('*')">
+            <br>
+            <input type="button" class="circle" value="C" onclick="clearResult()">
+            <input type="button" class="circle" value="0" onclick="appendToResult('0')">
+            <input type="button" class="circle" value="=" onclick="calculate()">
+            <input type="button" class="circle" value="/" onclick="appendToResult('/')">
+
+        </div>
+    </div>
+
+    <script src="asset/script.js"></script>
+</body>
+
+</html>
